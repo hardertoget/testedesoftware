@@ -80,7 +80,7 @@ describe('Teste da lista de tarefas', () => {
     expect(taskList.children[1].textContent).toContain('Tarefa 2');
     expect(taskList.children[2].textContent).toContain('Tarefa 3');
 
-    // Simula marcar as três tarefas como concluídas (dependendo de como isso é implementado no seu app)
+    // Simula marcar as três tarefas como concluídas 
     const completeBtns = taskList.querySelectorAll('.complete-btn');
     completeBtns.forEach((btn, index) => {
       btn.click(); // Simula marcar como concluída
