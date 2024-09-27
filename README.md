@@ -1,5 +1,5 @@
 Com os testes fornecidos pelo professor o jest não funciona, mas se comentar tudo e utilizar apenas os testes que fiz, funciona normalmente.
-RESULTADO: ERRO NO CÓDIGO ->  A variável taskInput não foi inicializada antes de seu uso no teste. Aqui estão alguns passos para corrigir isso:
+RESULTADO: ERRO NO CÓDIGO ->  A variável taskInput não foi inicializada antes de seu uso no teste.
 FAIL  ./app.test.js
   × Deve adicionar e concluir três tarefas (2 ms)
 
